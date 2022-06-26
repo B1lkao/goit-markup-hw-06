@@ -824,6 +824,9 @@ img {
 .form-field {
     margin-bottom: 10px;
 }
+.form-field.margin {
+    margin-bottom: 20px;
+}
 .form-label {
     display: block;
     position: relative;
@@ -861,6 +864,9 @@ img {
     bottom: 14px;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input:focus+.form-icon {
+    fill: #2196f3;
 }
 .form-comment {
     width: 100%;
